@@ -15,9 +15,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
-
+  -   Mencari referensi tentang permainan sudoku
+  -   Scrum Meeting untuk berdiskusi dan membahas sprint backlog
+ 
 - **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
    - Short changes 1
    - Short changes 2
