@@ -8,10 +8,10 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Credits
 | NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| ------------- |---------------------|
+| 140810200006  | Hali Putri Aisyah   |
+| 140810200052  | Fasya Nurina Izzati |
+| 140810200060  | Alya Raisa hidayat  |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
