@@ -1,24 +1,25 @@
 # Scrum Report (Sprint 2)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 23/11/2021 to 30/11/2021
 
 ## Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
-
+| NPM           |          Name        |
+| ------------- |----------------------|
+| 140810200006  | Hali Putri Aisyah    |
+| 140810200052  | Fasya Nurina Izzati  |
+| 140810200060  | Alya Raisa Hidayat   |
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 4             | -             |
 
 ## Sprint 2 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 2.1 | Preparing the x | Jane Doe | DONE |
-| 2.2 | Make the x | John Doe | FAILED |
+| ID  |             Title/Desc      | Asignee | 
+| --- | --------------------------- | ------- | 
+| 2.1 | Tampilan Tombol Restart     | Hali    |
+| 2.2 | Tampilan String dan Clue    | Fasya   |
+| 2.3 | Mengacak Angka              | Alya    |
+| 2.4 | Tingkat kesulitan           | Fasya   |
 
 ## Retrospective 
 
