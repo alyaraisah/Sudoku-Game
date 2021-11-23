@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 17/11/2021 to 23/11/2021
 
 ## Team (Insert your name)
 | NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| ------------- |----------------------|
+| 140810200006  | Hali Putri Aisyah    |
+| 140810200052  | Fasya Nurina Izzati  |
+| 140810200060  | Alya Raisa Hidayat   |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
@@ -17,15 +17,14 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Tampilan grid 9x9 dengan subgrid |   | Done |
+| 1.2 | Implementasi dasar PBO |   | Done |
+| 1.3 | Tampilan Tingkat Kesulitan |  | Failed |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
