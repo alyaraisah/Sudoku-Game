@@ -21,7 +21,7 @@
 | 1.2 | Implementasi dasar PBO           | Hali    | Done   |
 
 ## Retrospective 
-Sprint-1 masih sangat sedikit sehingga diperlukan adanya penyesuaian tugas. 
+Sprint-1 masih sangat sedikit sehingga diperlukan adanya penyesuaian tugas dan progres yang lebih cepat.
 Diperlukan perbaikan pada file sprint planning dan sprint-1.
 
 
