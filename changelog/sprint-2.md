@@ -16,17 +16,19 @@
 
 | ID  |             Title/Desc      | Asignee | 
 | --- | --------------------------- | ------- | 
-| 2.1 | Tampilan Tombol Restart     | Hali    |
+| 2.1 | Tingkat Kesulitan           | Fasya   |
 | 2.2 | Tampilan String dan Clue    | Fasya   |
 | 2.3 | Mengacak Angka              | Alya    |
-| 2.4 | Tingkat kesulitan           | Fasya   |
+| 2.4 | Tampilan Tombol Restart     | Hali    |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+-- belum ada
 
 ## Next Sprint Backlog (Sprint 3)
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| ID  | Title/Desc                            | Asignee | 
+| --- | --------------------------------------| ------- | 
+| 3.1 | Set Angka yang tidak bisa diganti     | Hali    |   
+| 3.2 | Cek Angka yang dimasukkan benar/salah | Fasya   | 
+| 3.3 | Highlight grid yang bernilai sama     | Alya    | 
+| 3.4 | Perbaikan UI dan pembuatan Menu Bar   | Alya    | 
