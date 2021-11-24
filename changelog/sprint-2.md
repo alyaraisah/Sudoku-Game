@@ -1,12 +1,13 @@
 # Scrum Report (Sprint 2)
-| From 23/11/2021 to 30/11/2021
+| From 24/11/2021 to 30/11/2021
 
-## Team (Insert your name)
+## Team 
 | NPM           |          Name        |
 | ------------- |----------------------|
 | 140810200006  | Hali Putri Aisyah    |
 | 140810200052  | Fasya Nurina Izzati  |
 | 140810200060  | Alya Raisa Hidayat   |
+
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
