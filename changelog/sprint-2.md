@@ -11,16 +11,15 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 4             | -             |
+| 3             | 3             |
 
 ## Sprint 2 Backlog
 
 | ID  |             Title/Desc      | Asignee | 
 | --- | --------------------------- | ------- | 
 | 2.1 | Tingkat Kesulitan           | Fasya   |
-| 2.2 | Tampilan String dan Clue    | Fasya   |
-| 2.3 | Mengacak Angka              | Alya    |
-| 2.4 | Tampilan Tombol Restart     | Hali    |
+| 2.2 | Tampilan String dan Clue    | Alya    |
+| 2.3 | Tampilan Tombol Listener    | Hali    |
 
 ## Retrospective 
 

@@ -109,34 +109,13 @@ public class Sudoku extends JFrame {
 			}
 		});
 		helpMenu.add(help);
-		menu.add(helpMenu);	
+		menu.add(helpMenu);;	
 
 		JMenu aboutMenu = new JMenu("About");
-		JMenuItem about = new JMenuItem("Sudoku Game");
-	    about.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null,"Sudoku, juga dikenal Number Place atau Nanpure, adalah sejenis teka-teki logika. \nTujuannya adalah untuk mengisikan angka-angka dari 1 sampai 9, \nke dalam jaring-jaring 9 x 9 yang terdiri dari 9 kotak 3 x 3 tanpa ada angka yang berulang di satu baris, kolom atau kotak");
-			}
-		});
-		aboutMenu.add(about);
 		menu.add(aboutMenu);
 
 	    JMenuItem restartGame = new JMenuItem("Restart Game");
 		MenuBar.add(restartGame);
-		JMenu Level = new JMenu("Difficulty level");
-	    MenuBar.add(Level);
-	    LevelListener dmlistener = new LevelListener();
-		JMenuItem easylevel = new JMenuItem("Easy");
-	    easylevel.addActionListener(dmlistener);
-	    Level.add(easylevel);
-	    JMenuItem mediumlevel = new JMenuItem("Medium");
-	    mediumlevel.addActionListener(dmlistener);
-	    Level.add(mediumlevel);
-	    JMenuItem hardlevel = new JMenuItem("Hard");
-	    hardlevel.addActionListener(dmlistener);
-	    Level.add(hardlevel);
-		
 		menu.add(MenuBar);
 	    setJMenuBar(menu);
 			
