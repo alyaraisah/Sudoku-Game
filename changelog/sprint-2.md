@@ -17,7 +17,7 @@
 
 | ID  |             Title/Desc      | Asignee | 
 | --- | --------------------------- | ------- | 
-| 2.1 | Tingkat Kesulitan           | Fasya   |
+| 2.1 | Menu Exit, Restart, Reset   | Fasya   |
 | 2.2 | Tampilan String dan Clue    | Alya    |
 | 2.3 | Tampilan Tombol Listener    | Hali    |
 
