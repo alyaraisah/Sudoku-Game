@@ -15,20 +15,20 @@
 
 ## Sprint 2 Backlog
 
-| ID  |             Title/Desc      | Asignee | 
-| --- | --------------------------- | ------- | 
-| 2.1 | Menu Exit, Restart, Reset   | Fasya   |
-| 2.2 | Tampilan String dan Clue    | Alya    |
-| 2.3 | Tampilan Tombol Listener    | Hali    |
+| ID  |             Title/Desc      | Asignee |   Status  |
+| --- | --------------------------- | ------- | ----------|
+| 2.1 | Menu Exit, Restart, Reset   | Fasya   |   done    |
+| 2.2 | Tampilan String dan Clue    | Alya    |   done    |
+| 2.3 | Tampilan Tombol Listener    | Hali    |   done    |
 
 ## Retrospective 
 
 -- belum ada
 
 ## Next Sprint Backlog (Sprint 3)
-| ID  | Title/Desc                            | Asignee | 
-| --- | --------------------------------------| ------- | 
-| 3.1 | Set Angka yang tidak bisa diganti     | Hali    |   
-| 3.2 | Cek Angka yang dimasukkan benar/salah | Fasya   | 
-| 3.3 | Highlight grid yang bernilai sama     | Alya    | 
-| 3.4 | Perbaikan UI dan pembuatan Menu Bar   | Alya    | 
+| ID  | Title/Desc                            | Asignee |
+| --- | --------------------------------------| ------- |
+| 3.1 | Set Angka yang tidak bisa diganti     | Hali    |
+| 3.2 | Cek Angka yang dimasukkan benar/salah | Fasya   |
+| 3.3 | Highlight grid yang bernilai sama     | Alya    |
+| 3.4 | Perbaikan UI dan pembuatan Menu Bar   | Alya    |
