@@ -23,13 +23,13 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Tampilan grid 9x9 dengan subgrid     
    - Implementasi dasar PBO            
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
+- **[Sprint 2](changelog/sprint-2.md) - (24 - 30 November)** 
    - Tingkat Kesulitan
    - Tampilan String dan Clue          
    - Mengacak Angka              
    - Tampilan Tombol Restart 
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
+- **[Sprint 3](changelog/sprint-3.md) - (01 - 07 Desember)** 
    - Set Angka yang tidak bisa diganti    
    - Cek Angka yang dimasukkan benar/salah 
    - Highlight grid yang bernilai sama

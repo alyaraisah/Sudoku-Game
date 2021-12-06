@@ -11,17 +11,16 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 4             | -             |
+| 4             | 4             |
 
 ## Sprint 3 Backlog
 
-| ID  | Title/Desc                            | Asignee | Status |
-| --- | --------------------------------------| ------- | ------ | 
-| 3.1 | Set Angka yang tidak bisa diganti     | Hali    |   -    |
-| 3.2 | Cek Angka yang dimasukkan benar/salah | Fasya   |   -    |
-| 3.3 | Highlight grid yang bernilai sama     | Alya    |   -    | 
-| 3.4 | Perbaikan UI dan pembuatan Menu Bar   | Alya    |   -    | 
+| ID  | Title/Desc                            | Asignee |   Status  |
+| --- | --------------------------------------| ------- | ----------| 
+| 3.1 | Set Angka yang tidak bisa diganti     | Hali    |   done    |
+| 3.2 | Cek Angka yang dimasukkan benar/salah | Fasya   |   done    |
+| 3.3 | Highlight grid yang bernilai sama     | Alya    |   done    |
+| 3.4 | Perbaikan UI dan pembuatan Menu Bar   | Alya    |   done    |
 
 ## Retrospective 
 
--- belum ada
