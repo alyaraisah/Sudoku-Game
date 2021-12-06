@@ -8,44 +8,32 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-import javax.swing.BoxLayout;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.border.BevelBorder;
+
 import javax.swing.*;
+import javax.swing.border.BevelBorder;
 
 @SuppressWarnings("serial")
 public class Sudoku extends JFrame {
+	static int grid = SudokuPuzzle.grid; // ukuran grid
+	int subgrid = SudokuPuzzle.subgrid; // ukuran subgrid
 
-	public static final int grid = SudokuPuzzle.grid; // ukuran grid
-	public static final int subgrid = SudokuPuzzle.subgrid; // ukuran subgrid
+	int size = 60;
+	int width = size * grid;
+	int height = size * grid;
 
-	public static final int size = 60;
-	public static final int width = size * grid;
-	public static final int height = size * grid;
+	Color color_blank = Color.WHITE; // warna background untuk cell yang akan diisi user
+	Color color_true = Color.BLUE; // warna font ketika jawaban user benar
+	Color color_false = Color.RED; // warna font ketika jawaban user salah
+	Color color_fill = Color.CYAN; // warna background untuk cell yang berisi angka clue
+	Color color_number = Color.BLUE; // warna font angka clue
+	Font font_number = new Font("TW Cen MT", Font.BOLD, 20);
+	int level; 
+	static int closedCellsNum;
 
-	public static final Color color_blank = Color.WHITE; // warna background untuk cell yang akan diisi user
-	public static final Color color_true = Color.BLUE; // warna font ketika jawaban user benar
-	public static final Color color_false = Color.RED; // warna font ketika jawaban user salah
-	public static final Color color_fill = new Color(240, 240, 240); // warna background untuk cell yang berisi angka clue
-	public static final Color color_number = Color.BLACK; // warna font angka clue
-	public static final Font font_number = new Font("TW Cen MT", Font.BOLD, 20);
-
-	public static int level; 
-	public static int closedCellsNum;
-
-	public static JPanel sudokuboard;
-	public static JPanel PanelBoard;
-	public static JLabel LabelBoard;
-	public static JMenuBar menu;
+	JPanel sudokuboard;
+	JPanel PanelBoard;
+	JLabel LabelBoard;
+	JMenuBar menu;
 
 
 	JTextField[][] display = new JTextField[grid][grid];
@@ -74,7 +62,6 @@ public class Sudoku extends JFrame {
 			{ false, false, false, false, false, false, false, false, false },
 			{ false, false, false, false, false, false, false, false, false } };
 
-
 	public Sudoku() {
 
 		Container contentp = getContentPane();
@@ -83,7 +70,7 @@ public class Sudoku extends JFrame {
 		//SudokuBoard
 		sudokuboard = new JPanel();
 		sudokuboard.setLayout(new GridLayout(grid, grid));
-		sudokuboard.setBorder(BorderFactory.createMatteBorder(3, 3, 3, 3, Color.black));
+		sudokuboard.setBorder(BorderFactory.createMatteBorder(3, 3, 3, 3, Color.DARK_GRAY));
 		contentp.add(sudokuboard, BorderLayout.CENTER);
 
 		//membuatPanel
@@ -109,13 +96,34 @@ public class Sudoku extends JFrame {
 			}
 		});
 		helpMenu.add(help);
-		menu.add(helpMenu);;	
+		menu.add(helpMenu);	
 
 		JMenu aboutMenu = new JMenu("About");
+		JMenuItem about = new JMenuItem("Sudoku Game");
+	    about.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"Sudoku, juga dikenal Number Place atau Nanpure, adalah sejenis teka-teki logika. \nTujuannya adalah untuk mengisikan angka-angka dari 1 sampai 9, \nke dalam jaring-jaring 9 x 9 yang terdiri dari 9 kotak 3 x 3 tanpa ada angka yang berulang di satu baris, kolom atau kotak");
+			}
+		});
+		aboutMenu.add(about);
 		menu.add(aboutMenu);
 
 	    JMenuItem restartGame = new JMenuItem("Restart Game");
 		MenuBar.add(restartGame);
+		JMenu Level = new JMenu("Difficulty level");
+	    MenuBar.add(Level);
+	    LevelListener dmlistener = new LevelListener();
+		JMenuItem easylevel = new JMenuItem("Easy");
+	    easylevel.addActionListener(dmlistener);
+	    Level.add(easylevel);
+	    JMenuItem mediumlevel = new JMenuItem("Medium");
+	    mediumlevel.addActionListener(dmlistener);
+	    Level.add(mediumlevel);
+	    JMenuItem hardlevel = new JMenuItem("Hard");
+	    hardlevel.addActionListener(dmlistener);
+	    Level.add(hardlevel);
+		
 		menu.add(MenuBar);
 	    setJMenuBar(menu);
 			
@@ -178,25 +186,21 @@ public class Sudoku extends JFrame {
 		public void actionPerformed(ActionEvent e) {
 			switch (e.getActionCommand()) {
 			case "Easy":
-				JOptionPane.showMessageDialog(null, "Dasar Newbie");
-				setLevel (5);
+				setLevel(5);
 				dispose();
 				new Sudoku();
 				break;
 			case "Medium":
-				JOptionPane.showMessageDialog(null, "Sok Jago");
 				setLevel (7);
 				dispose();
 				new Sudoku();
 				break;
 			case "Hard":
-				JOptionPane.showMessageDialog(null, "Ampun Bang Jago");
 				setLevel (8);
 				dispose();
 				new Sudoku();
 				break;
 			default:
-				JOptionPane.showMessageDialog(null, "Dasar Newbie");
 				setLevel (5);
 				dispose();
 				new Sudoku();
@@ -266,7 +270,6 @@ public class Sudoku extends JFrame {
         }
         
 	}
-
 	private class InputListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -291,7 +294,7 @@ public class Sudoku extends JFrame {
 			try {
 				input = Integer.parseInt(source.getText());
 			} catch (NumberFormatException ex) {
-				JOptionPane.showMessageDialog(null, "Input angka ngab");
+				JOptionPane.showMessageDialog(null, "Input Angka!!");
 			}
 			// membandingkan antara angka yang diinputkan dan angka yang ada di puzzle
 			// jika benar, maka angka yang diinputkan akan berwarna biru
@@ -338,7 +341,7 @@ public class Sudoku extends JFrame {
 			}
 
 			if (winner) {
-				JOptionPane.showMessageDialog(null, "Selamat ya!");
+				JOptionPane.showMessageDialog(null, "Congratulation");
 			}
 		}
 	}
@@ -348,12 +351,7 @@ public class Sudoku extends JFrame {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				if(args.length < 1 ) {
-					JOptionPane.showMessageDialog(null, "Hello");
-					setLevel (9);
-				}
-
-				else if(args[0].contains("easy")) {
+				if(args.length < 1 || args[0].contains("easy")) {
 					JOptionPane.showMessageDialog(null, "Level: Easy");
 					setLevel (5);
 				}
