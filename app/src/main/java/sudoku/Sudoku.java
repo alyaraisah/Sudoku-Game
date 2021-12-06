@@ -14,8 +14,8 @@ import javax.swing.border.BevelBorder;
 
 @SuppressWarnings("serial")
 public class Sudoku extends JFrame {
-	static int grid = SudokuPuzzle.grid; // ukuran grid
-	int subgrid = SudokuPuzzle.subgrid; // ukuran subgrid
+	static int grid = Puzzle.grid; // ukuran grid
+	int subgrid = Puzzle.subgrid; // ukuran subgrid
 
 	int size = 60;
 	int width = size * grid;
@@ -40,7 +40,7 @@ public class Sudoku extends JFrame {
 
 	// puzzle (teka-teki) yang harus diselesaikan dan set elemen yang tidak dimasking (sesuai difficulty level : easy, medium, hard)
 	// pada bagian ini, valuenya masih false semua karena akan diset selanjutnya mengikuti difficulty level
-	private int[][] sudokupuzzle = SudokuPuzzle.getPuzzle();
+	private int[][] sudokupuzzle = Puzzle.getPuzzle();
     private static boolean[][] restgame = {    //temp restart
 			{ false, false, false, false, false, false, false, false, false },
 			{ false, false, false, false, false, false, false, false, false },

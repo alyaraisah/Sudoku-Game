@@ -1,7 +1,7 @@
 // import class untuk mengacak angka dalam tile Sudoku
 import java.util.Random;
 
-public class SudokuPuzzle {
+public class Puzzle {
     // deklarasi jumlah grid
     public static final int grid = 9;    // ukuran grid 9x9
     public static final int subgrid = 3; // ukuran subgrid 3x3
