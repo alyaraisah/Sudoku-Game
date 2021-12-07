@@ -3,10 +3,10 @@ import java.util.Random;
 
 public class Puzzle {
     // deklarasi jumlah grid
-    public static final int grid = 9;    // ukuran grid 9x9
-    public static final int subgrid = 3; // ukuran subgrid 3x3
+    static int grid = 9;    // ukuran grid 9x9
+    static int subgrid = 3; // ukuran subgrid 3x3
 
-    public static Random random = new Random();     // instansiasi objek dari class Random
+    private static Random random = new Random();     // instansiasi objek dari class Random
 
     // inisialisasi elemen dari setiap tile
     // array dg index puzzle 0-8

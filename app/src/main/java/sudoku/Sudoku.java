@@ -341,7 +341,7 @@ public class Sudoku extends JFrame {
 			}
 
 			if (winner) {
-				JOptionPane.showMessageDialog(null, "Congratulation");
+				JOptionPane.showMessageDialog(null, "Congratulations !!!!");
 			}
 		}
 	}
