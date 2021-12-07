@@ -92,7 +92,7 @@ public class Sudoku extends JFrame {
 	    help.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null,"1. Pada baris harus di isi oleh angka-angka mulai dari 1-9 dan tidak boleh ada angka yang kembar dalam satu baris.\n2. Pada kolom juga begitu harus di isi dengan angka-angka mulai dari 1-9 dan tidak boleh ada angka yang kembar dalam satu kolom.\n3. Pada setiap bagian kotak area dengan ukuran 3 x 3 yang berisi 9 kotak-kotak kecil. Kotak kecil tersebut harus diisi dengan angka 1-9 dan syaratnya tidak boleh ada angka yang berulang pada setiap kotak area.");
+				JOptionPane.showMessageDialog(null,"1. Pada baris harus diisi dengan angka mulai dari 1-9 dan setiap baris tidak boleh berisi angka yang sama. \n2. Pada kolom juga harus diisi dengan angka dari 1-9 dan tidak boleh diisi angka kembar. \n3. Pada setiap bagian kotak area dengan ukuran 3 x 3 yang berisi 9 kotak-kotak kecil. Kotak kecil tersebut harus diisi dengan angka 1-9 dan syaratnya tidak boleh ada angka yang berulang pada setiap kotak area.");
 			}
 		});
 		helpMenu.add(help);

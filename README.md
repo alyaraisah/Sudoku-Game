@@ -37,7 +37,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+1. Bukalah terminal pada text editor.
+2. Lakukan cd file dari app -> src -> main -> java -> sudoku.
+3. Compile program dengan menggunakan command "javac Sudoku.java".
+4. Lalu, jalankan main dengan menggunakan command "java Sudoku".
+5. Game sudah terbuka dan sip untuk dimainkan sesuai aturan yang sudah tertera pada button "Help -> Game Instructions".
 
 ## Classes Used
 
