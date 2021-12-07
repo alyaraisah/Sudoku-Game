@@ -50,5 +50,13 @@ TO;DO
 UML image here
 
 ## Notable Assumption and Design App Details
-
-TO;DO
+- Tampilan grid berukuran 9x9 yang terdiri dari sub-grids 3x3
+- Random Number bersifat Unik pada setiap baris, kolom, grid dan sub-grids
+- Lakukan masking terhadap ubin tertentu (angka disembunyikan dan dijadikan text field)
+- Ubin yang tidak dimasking bersifat read-only (angka didalamnya tidak bisa diubah)
+- Cek apakah urutan tersebut dapat dipecahkan dengan aturan: Setiap angka yang didahului oleh angka yang lebih besar dianggap sebagai inversi, jumlah inversi dari puzzle harus genap.
+- Buat listener untuk memproses input. Setiap inputan user akan dicek:
+- Koordinat x dan y dimana inputan tersebut berada
+- Apakah nilai yang dimasukan pada ubin sesuai dengan jawaban, jika sesuai maka background menjadi biru, jika tidak sesuai maka tulisan menjadi warna merah
+- Highlight (background menjadi merah) ubin yang sudah berisi angka, jika dalam 1 baris, 1 kolom, atau 1 sub-grids berisi angka yang sama dengan inputan user
+- Buat button “Reset/Restart” untuk mengacak ulang grid dan memulai game baru.
