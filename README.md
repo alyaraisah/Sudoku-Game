@@ -45,9 +45,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Classes Used
 
-TO;DO
-
-UML image here
+1. Class Puzzle, merupakan class untuk menginput serta mengacak angka yang ada pada sudoku
+2. Class Sudoku, berfungsi untuk menampilkan tampilan game sudoku dan main class untuk menjalankan permainan sudoku
 
 ## Notable Assumption and Design App Details
 - Tampilan grid berukuran 9x9 yang terdiri dari sub-grids 3x3
