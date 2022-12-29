@@ -4,8 +4,6 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
-
 ## Credits
 | NPM           | Name        |
 | ------------- |---------------------|
